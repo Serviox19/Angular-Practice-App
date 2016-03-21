@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="tweetApp">
 <head>
   <title>Angular Twitter</title>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  <script src="javascripts/app.js"></script>
 </head>
 <body>
+  <div id="main" ng-controller="mainController">
+    <form>
+      <input type="text" placeholder="Your Name">
+      <textarea required maxlength="200" rows="3" placeholder="Tweet Something"></textarea>
+      <input class="button" type="submit" value="tweet">
+    </form>
+    <div id="tweet-stream">
+      <h4>Tweet Feed</h4>
+    </div>
+  </div><!-- END MAIN -->
 
 </body>
 </html>
