@@ -1,0 +1,31 @@
+{
+  "name": "angular_twitter",
+  "version": "0.0.0",
+  "description": "MEAN Stack twitter like application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Serviox19/Angular-Practice-App.git"
+  },
+  "keywords": [
+    "Angular",
+    "Express",
+    "Mean",
+    "Stack"
+  ],
+  "author": "Servio Mora",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Serviox19/Angular-Practice-App/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.8",
+    "morgan": "^1.7.0"
+  }
+}
